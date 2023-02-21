@@ -4,8 +4,6 @@ class Item:
         self.price = price
         self.stock = stock
         self.condition = cond
-    def showItem(self):
-        print(f"Your created item: {self.name}, ${self.price}, {self.stock} count, {self.desc}" )
 
 class Clothing(Item):
     def __init__(self, name, price, stock, cond, size):
